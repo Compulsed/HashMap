@@ -46,21 +46,22 @@
 #include <vector>
 #include <exception>
 
+
 using namespace std;
 
-enum REPORTING{
-    NONE, LOG, POF
-};
-const int REPORTING_LEVEL = REPORTING::NONE;
+
+
 
 template<class ValueType>
 struct HashConflictNode{
     string accessKey;
     ValueType data;
     
-    HashConflictNode(){};
-    HashConflictNode(ValueType sentData, string sentAccessKey): accessKey(sentAccessKey), data(sentData){}
+    HashConflictNode();
+    HashConflictNode(ValueType sentData, string sentAccessKey);
 };
+
+
 
 template<class ValueType>
 class Hash{
@@ -71,31 +72,33 @@ private:
     bool hasSet;
     list<HashConflictNode<ValueType>>* conflictList;
 public:
-    Hash(): hasSet(false), conflictList(nullptr){}
-    ~Hash(){}
+    Hash();
+    ~Hash();
     
-    void set(ValueType sentData, string key){}; // Setter
-    ValueType get(string key){};                // Getter
+    void set(ValueType sentData, string key); // Setter
+    ValueType get(string key);                // Getter
 };
+
+
 
 
 
 template<class ValueType>
 class HashTable{
 private:
-    const int tableSize = 100;
+    int tableSize;
     vector<Hash<ValueType>> hashTable;
 public:
-    void init(){} // Is called from all constructors
+    void init(); // Is called from all constructors
     
-    HashTable(){};
-    HashTable(int size) : tableSize(size){}
+    HashTable();
+    HashTable(int size);
     
     
-    int hasher(string key){} // Used hash the key and find location in hashTable
+    int hasher(string key); // Used hash the key and find location in hashTable
     
-    void set(string key, ValueType value){}; // Setter
-    ValueType get(string key){};             // Getter
+    void set(string key, ValueType value); // Setter
+    ValueType get(string key);             // Getter
 };
 
 
