@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D163AA81994885D00F71E03 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D163AA71994885D00F71E03 /* HashTable.cpp */; };
 		2D7A473D19923E9100969F39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A473C19923E9100969F39 /* main.cpp */; };
 		2D7A473F19923E9100969F39 /* HashHable.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D7A473E19923E9100969F39 /* HashHable.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D163AA61994881A00F71E03 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		2D163AA71994885D00F71E03 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
 		2D7A473919923E9100969F39 /* HashHable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashHable; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7A473C19923E9100969F39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2D7A473E19923E9100969F39 /* HashHable.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HashHable.1; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				2D7A473C19923E9100969F39 /* main.cpp */,
 				2D7A473E19923E9100969F39 /* HashHable.1 */,
+				2D163AA61994881A00F71E03 /* HashTable.h */,
+				2D163AA71994885D00F71E03 /* HashTable.cpp */,
 			);
 			path = HashHable;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D163AA81994885D00F71E03 /* HashTable.cpp in Sources */,
 				2D7A473D19923E9100969F39 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +233,7 @@
 				2D7A474419923E9100969F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
