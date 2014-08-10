@@ -10,6 +10,7 @@
 		2D163AA81994885D00F71E03 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D163AA71994885D00F71E03 /* HashTable.cpp */; };
 		2D7A473D19923E9100969F39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A473C19923E9100969F39 /* main.cpp */; };
 		2D7A473F19923E9100969F39 /* HashHable.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D7A473E19923E9100969F39 /* HashHable.1 */; };
+		2DB1F3931995C16700790283 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1F3911995C16700790283 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		2D7A473919923E9100969F39 /* HashHable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashHable; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7A473C19923E9100969F39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2D7A473E19923E9100969F39 /* HashHable.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HashHable.1; sourceTree = "<group>"; };
+		2DB1F3911995C16700790283 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		2DB1F3921995C16700790283 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2D7A473E19923E9100969F39 /* HashHable.1 */,
 				2D163AA61994881A00F71E03 /* HashTable.h */,
 				2D163AA71994885D00F71E03 /* HashTable.cpp */,
+				2DB1F3911995C16700790283 /* test.cpp */,
+				2DB1F3921995C16700790283 /* test.h */,
 			);
 			path = HashHable;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			files = (
 				2D163AA81994885D00F71E03 /* HashTable.cpp in Sources */,
 				2D7A473D19923E9100969F39 /* main.cpp in Sources */,
+				2DB1F3931995C16700790283 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
